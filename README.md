@@ -3,7 +3,7 @@ _Author: Michael Niemeyer 2017_
 
 This work is an example of how an understanding of handwritten digits can be learnt unsupervised, that is without any form of labels.
 
-## General Idea
+## General Idea and Data
 The idea is the following: Each image consists of 28 * 28 = 784 pixels p_i with values ranging from 0 to 255 (greyscale image). We interpret each pixel p_i as a word, and its intensity value corresponds to its frequency. This way, we are able to model the image data as a collection of "documents" each consisting of 784 different "words" with different frequencies.
 Please see this link of the corresponding kaggle competition to find the training and test data: https://www.kaggle.com/michaelnie/unsupervised-learning-with-topic-modelling/data
 
